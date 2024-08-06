@@ -1,0 +1,144 @@
+ALGOROOM site sobre coisas
+<h1>Novidades Sobre Betas e Bugs de Speedrun</h1>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALGOROOM site sobre coisas</title>
+<style>
+    
+    .popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #f9f9f9;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        max-width: 80%;
+        max-height: 80%;
+        overflow-y: auto;
+    }
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<h1>Bem-vindo ao Meu Site</h1>
+
+
+<button onclick="abrirPopup()">O que é este site?</button>
+
+
+<div id="popup" class="popup">
+    <span class="close" onclick="fecharPopup()">&times;</span>
+    <h2>esse site e sobre betas de jogos e taticas de Speedrun</h2>
+    <p></p>
+</div>
+
+<script>
+    
+    function abrirPopup() {
+        document.getElementById('popup').style.display = 'block';
+    }
+
+    
+    function fecharPopup() {
+        document.getElementById('popup').style.display = 'none';
+    }
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div id="catalogo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BcEYFRT6kT8?si=mH5Cb9ordMcaErMX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/F7ztC43acfk?si=OcB0FyPPCPw9SqWm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .video {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            overflow: hidden;
+        }
+        .video img {
+            float: left;
+            margin-right: 10px;
+            max-width: 120px;
+            max-height: 90px;
+        }
+        .video h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Catálogo de Vídeos</h1>
+
+    <div class="video">
+        <img src="https://hypandogames.com.br/wp-content/uploads/2024/02/img_3128-1.jpg" alt="Miniatura do Vídeo 1">
+        <div>
+            <h2>Vazamentos sobre a historia de final fantasy 7 rebirth</h2>
+            <p>O rebirth é tão bom quanto falão ?.</p>
+        </div>
+    </div>
+
+    <div class="video">
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRTDbNB58FS2QSTLfwt50yNLGJYhWYuXruDaAaFs_fV30Hgae8IdvFQsUEayuAzehZUnyvZwmUYlp-77_NDFE-ot_Ba6g2uXiKPKiEgRA" alt="Miniatura do Vídeo 2">
+        <div>
+            <h2>vazamentos da beta de final fantasy 7 remake sobre a dlc nova</h2>
+            <p>Wasted Link novidades sobre novos jogos e dlcs.</p>
+        </div>
+    </div>
+
+    <div class="video">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/3/35/The_Legend_of_Zelda_Majora%27s_Mask_capa.png" alt="Miniatura do Vídeo 3">
+        <div>
+            <h2>Uma decoberta que levo mais de 20 ANOS pra ser revelada</h2>
+            <p>um bug que levo mais de 20 anos pra ser descoberto e realizado.</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
